@@ -121,7 +121,7 @@ function open_link(input) {
     const target = cursor[final];
 
     if (supported.includes(result.parsedResult.browser.name)) {
-      window.open(target, "_blank");
+      window.open(target);
     } else {
       window.open(target, "_self");
     }
