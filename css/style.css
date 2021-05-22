@@ -63,7 +63,7 @@ a {
   text-decoration: none;
   margin: 8px;
   pointer-events: auto;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 a:focus,
