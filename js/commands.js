@@ -123,7 +123,7 @@ function open_link(input) {
     if (supported.includes(result.parsedResult.browser.name)) {
       window.open(target);
     } else {
-      window.open(target, "_self");
+      window.open(target);
     }
   }
 }
@@ -171,7 +171,7 @@ function search(input) {
   if (supported.includes(result.parsedResult.browser.name)) {
     window.open(target);
   } else {
-    window.open(target, "_self");
+    window.open(target);
   }
 }
 
