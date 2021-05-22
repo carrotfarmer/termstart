@@ -64,6 +64,7 @@ a {
   margin: 8px;
   pointer-events: auto;
   font-family: "Ubuntu Mono", monospace;
+  font-size: large;
 }
 
 a:focus,
