@@ -72,7 +72,7 @@ function clear_prompt() {
  * List added links
 */
 
-function list(input) {
+function list() {
   const cursor = get_links();
 
   return Object.entries(cursor).map(([key, value]) => {
@@ -86,7 +86,7 @@ function list(input) {
  * List available themes
 */
 
-function themes(input) {
+function themes() {
   const cursor = get_themes();
   return Object.entries(cursor).map(([key, value]) => {
     return {
@@ -104,7 +104,7 @@ function help(input) {
   }
 }
 
-function commands(input) {
+function commands() {
   return COMM["commands"]
 }
 
