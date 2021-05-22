@@ -169,7 +169,7 @@ function search(input) {
   let target = search_url + search_string; // search_url is the default search engine
 
   if (supported.includes(result.parsedResult.browser.name)) {
-    window.open(target, "_blank");
+    window.open(target);
   } else {
     window.open(target, "_self");
   }
